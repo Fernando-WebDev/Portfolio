@@ -8,8 +8,8 @@
 :root {
     --dark-bg: #0a0a0a;
     --darker-bg:#050505;
-    --accent: #2ecc71;
-    --accent-glow: rgba(46, 204, 113, 0.4);
+    --accent: #b32fd4;
+    --accent-glow: rgba(125, 24, 176, 0.4);
     --text: #ffffff;
 }
 
@@ -80,7 +80,7 @@ body {
     background: radial-gradient(circle at 75% 30%, var(--accent-glow) 0%, transparent 30%);
 }
 
-.hero-content {
+.conteudo {
     flex: 1;
     padding-right: 5rem;
 }
@@ -125,7 +125,7 @@ body {
 .cta-button {
     display: inline-block;
     padding: 1rem 2rem;
-    background: linear-gradient(45deg, var(--accent), #27ae60);
+    background: linear-gradient(45deg, var(--accent), #34074d);
     color: white;
     border-radius: 8px;
     text-decoration: none;
@@ -192,6 +192,8 @@ footer {
     transform: translateY(-3px);
 }
 
+
+/*Responsividade*/
 @media (max-width: 768px) {
 .hero {
     flex-direction: column;
@@ -199,7 +201,7 @@ footer {
     padding-top: 8rem;
 }
 
-.hero-content {
+.conteudo {
     padding-right: 0;
     margin-bottom: 3rem;
 }
